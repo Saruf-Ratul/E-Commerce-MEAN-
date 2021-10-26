@@ -5,10 +5,10 @@ const logger = require('morgan');
 const cors = require('cors');
 const app = express();
 // Import Routes
-const usersRouter = require('./routes/users');
+const ordersRouter = require('./routes/orders');
 const productsRouter = require('./routes/products');
 
-app.use('/api/users', usersRouter);
+app.use('/api/orders', ordersRouter);
 app.use('/api/products', productsRouter);
 
 
