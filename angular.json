@@ -36,7 +36,13 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/jquery.zoom.min.js",
+              "src/assets/js/nouislider.min.js",
+              "src/assets/js/slick.min.js"
+            ]
           },
           "configurations": {
             "production": {
